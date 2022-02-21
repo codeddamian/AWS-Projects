@@ -12,7 +12,7 @@
 - 3 Security groups (one for each instance)
 
 ## Architecture
-![Architecture_diagram](https://github.com/lisakoppe/AWS-Cloud_architecture/blob/master/AWS_Jumpbox/Screenshots/Architecture_diagram.png)
+![Architecture_diagram](https://github.com/codeddamian/AWS-Projects/blob/main/Jump%20Box%20Project/screenshot%20/Architecture_diagram.png)
 
 ## Steps to create the architecture:
 ### 1. VPC
