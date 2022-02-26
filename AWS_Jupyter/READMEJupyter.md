@@ -65,14 +65,6 @@ Configure the associated security group as follows:
   Python starts running when it shows ">>>".
   Quit Python with `exit()`
 
-- Test Python by executing a small script in in Ubuntu console:
-  - Open a notepad, write a small Python and save it with .py extension
-  - Upload the Python script to the distant machine: open WinSCP, go to `Tools > Import sites > Jupyter_server` and press "Login". Then drag and drop the Python script file to your distant machine (in the right pane).
-
-  ![WinSCP](https://github.com/lisakoppe/AWS-Cloud_architecture/blob/master/AWS_Jupyter-Server/Screenshots/WinSCP.PNG)
-
-  - Go to Ubuntu console and execute the Python script: `python 3 myscript.py`. The script result appears on the console.
-  - Quit Python3 coding console with `exit()`
 
 - Install pip installer
   ```
