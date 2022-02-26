@@ -32,7 +32,7 @@ Create 1 Route Table:
 ### 5. Ubuntu instance
 Create an instance: **Jupyter_server** *(public)* with type Ubuntu Server 18.04 LTS (HVM) *(ami-04b9e92b5572fa0d1)*, enable Auto-assign Public IP to avoid EIP creation (no flexibility needed here) and configure storage to 15GiB (could be less or more depending on your needs).
 
-![Jupyter_Server_instance](https://github.com/lisakoppe/AWS-Cloud_architecture/blob/master/AWS_Jupyter-Server/Screenshots/Jupyter_Server_instance.PNG)
+![Jupyter_Server_instance](https://github.com/codeddamian/AWS-Projects/blob/main/AWS_Jupyter/2.jpeg)
 
 Configure the associated security group as follows:
 ##### Inbound rules:
@@ -97,7 +97,7 @@ Configure the associated security group as follows:
 
 You are now connected to your Jupyter Server.
 
-![Jupyter_Server](https://github.com/lisakoppe/AWS-Cloud_architecture/blob/master/AWS_Jupyter-Server/Screenshots/Jupyter_Server.PNG)
+![Jupyter_Server](https://github.com/codeddamian/AWS-Projects/blob/main/AWS_Jupyter/1.jpeg)
 
 To avoid too many terminal windows, you can keep Jupyter Server running while shutting down terminal:
 - Launch command line elsewhere and run it in the background `nohup jupyter notebook --ip=0.0.0.0 &`
